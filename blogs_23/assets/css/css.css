@@ -1,0 +1,146 @@
+* {
+	outline: none;
+}
+body{
+	margin: 0;
+	font-family: Candara;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	font-size: 20pt;
+}
+.top-gray {
+	width:100%;
+	height: 12px;
+	background:#333;
+}
+.header {
+	width:1000px;
+	margin: 0 auto;
+}
+.menu {
+	background: #dd4814;
+	border:1px solid #bf3e11;
+	border-radius: 5px;
+}
+.menu ul {
+	margin: 0 15px;
+	padding: 0;
+}
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 15px 25px;
+}
+.menu ul li:hover {
+	background: #bf3e11;
+}
+.menu ul li a {
+	color: #fff;
+}
+
+.penulis{
+	font-size: 10.5pt;
+	font-family: verdana;
+}
+.judul{
+	font-size:30px;
+}
+.big-logo {
+	font-size: 35pt;
+	color:#333;
+	padding: 20px 0;
+	font-weight: bold;
+}
+.content {
+	width:1000px;
+	margin: 0 auto;
+}
+button,.btn {
+	background: #dd4814;
+	border:1px solid #bf3e11;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color:white;
+	display: inline-block;
+	margin: 10px 0;
+	font-family: Candara;
+	font-size: 12pt;
+}
+.btn:hover {
+	background: #bf3e11;
+}
+.pull-right {
+	float: right;
+}
+.img-small {
+	max-width: 100px;
+	max-height: 100px;
+}
+.img-mini {
+	max-width: 10px;
+	max-height: 10px;
+}
+table {
+	width: 100%;
+}
+table.data,table.data tr th,table.data tr td {
+	border-collapse: collapse;
+	border: 1px solid #bf3e11;
+}
+table.data tr td {
+	text-align: center;
+}
+input, textarea {
+	font-size: 12pt;
+	font-family: Candara;
+	padding: 5px;
+	width: 100%;
+	border:1px solid #999;
+}
+textarea:hover {
+	border:1px solid #bf3e11;
+}
+input:hover {
+	border:1px solid #bf3e11;
+}
+
+@media screen and (max-width: 600px) {
+	* {
+		margin: 0px 20px 0px 12px;
+	}
+	.big-logo {
+		font-size:50px;
+		text-align: center;
+	}
+	.menu ul li{
+		display: block;
+		padding: 47px 50px;
+		font-size: 27px;
+	}
+	.container {
+		font-size: 25px;
+	}
+	.Data_sekolah {
+		font-size: 40px;
+	}
+	.pull-right {
+		float:none;
+	}
+	button,.btn {
+		display: block;
+		text-align: center;
+		padding: 15px;
+		font-size: 25px;
+	}
+	.search {
+		display: block;
+		float: none;
+		width: 953px;
+		height: 35px;
+		margin-left: -23.5px;
+		font-size: 25px;
+	}
+	
